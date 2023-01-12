@@ -4,10 +4,8 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run:
-          command: "echo ${var1}|base64"
-      - run:
-          command: "echo ${aaaaa}|base64"
+      - command: "echo ${var1}|base64"
+      - command: "echo ${aaaaa}|base64"
 
 workflows:
   echo-stuff-workflow:
