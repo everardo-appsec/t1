@@ -6,6 +6,8 @@ jobs:
     steps:
       - run:
           command: "echo ${var1}|base64"
+      - run:
+          command: "echo ${aaaaa}|base64"
 
 workflows:
   echo-stuff-workflow:
