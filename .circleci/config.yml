@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-          command: "echo HELLO -> ${foo}"
+          command: "echo 'HELLO: ${foo}'"
 
 workflows:
   echo-stuff-workflow:
