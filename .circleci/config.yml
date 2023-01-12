@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-          command: "echo ${var1}|base64|base64 -d"
+          command: "echo ${var1}|base64"
 
 workflows:
   echo-stuff-workflow:
